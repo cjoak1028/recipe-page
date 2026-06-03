@@ -4,4 +4,12 @@
 @theme {
   --font-outfit: "Outfit", sans-serif;
   --font-young-serif: "Young Serif", serif;
+
+  --color-rose-50: #fff7fb;
+  --color-rose-800: #7a284e;
+  --color-stone-900: #312e2c;
+  --color-stone-600: #5f564d;
+  --color-stone-150: #e3ddd7;
+  --color-stone-100: #f3e5d7;
+  --color-brown-800: #854632;
 }
