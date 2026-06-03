@@ -243,6 +243,9 @@
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
+  .pl-4 {
+    padding-left: calc(var(--spacing) * 4);
+  }
   .pl-5 {
     padding-left: calc(var(--spacing) * 5);
   }
@@ -285,6 +288,80 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .marker\:mr-4 {
+    & *::marker {
+      margin-right: calc(var(--spacing) * 4);
+    }
+    &::marker {
+      margin-right: calc(var(--spacing) * 4);
+    }
+    & *::-webkit-details-marker {
+      margin-right: calc(var(--spacing) * 4);
+    }
+    &::-webkit-details-marker {
+      margin-right: calc(var(--spacing) * 4);
+    }
+  }
+  .marker\:pr-4 {
+    & *::marker {
+      padding-right: calc(var(--spacing) * 4);
+    }
+    &::marker {
+      padding-right: calc(var(--spacing) * 4);
+    }
+    & *::-webkit-details-marker {
+      padding-right: calc(var(--spacing) * 4);
+    }
+    &::-webkit-details-marker {
+      padding-right: calc(var(--spacing) * 4);
+    }
+  }
+  .marker\:font-bold {
+    & *::marker {
+      --tw-font-weight: var(--font-weight-bold);
+      font-weight: var(--font-weight-bold);
+    }
+    &::marker {
+      --tw-font-weight: var(--font-weight-bold);
+      font-weight: var(--font-weight-bold);
+    }
+    & *::-webkit-details-marker {
+      --tw-font-weight: var(--font-weight-bold);
+      font-weight: var(--font-weight-bold);
+    }
+    &::-webkit-details-marker {
+      --tw-font-weight: var(--font-weight-bold);
+      font-weight: var(--font-weight-bold);
+    }
+  }
+  .marker\:text-brown-800 {
+    & *::marker {
+      color: var(--color-brown-800);
+    }
+    &::marker {
+      color: var(--color-brown-800);
+    }
+    & *::-webkit-details-marker {
+      color: var(--color-brown-800);
+    }
+    &::-webkit-details-marker {
+      color: var(--color-brown-800);
+    }
+  }
+  .marker\:text-rose-800 {
+    & *::marker {
+      color: var(--color-rose-800);
+    }
+    &::marker {
+      color: var(--color-rose-800);
+    }
+    & *::-webkit-details-marker {
+      color: var(--color-rose-800);
+    }
+    &::-webkit-details-marker {
+      color: var(--color-rose-800);
+    }
   }
 }
 @property --tw-space-y-reverse {
